@@ -60,7 +60,8 @@ body{
 
 .wrap{
     margin: 0 auto;
-    max-width:1296px;
+    max-width:1320px;
+    padding:0px 12px;
 }
 .header{
     display: flex;
@@ -168,8 +169,7 @@ body{
     margin-bottom:120px;
 }
 .about-item{
-width:416px;
-height:266px;
+
 padding:80px 40px;
 border:1px solid white;
 }
@@ -218,8 +218,7 @@ border:1px solid white;
 
 .middle-wrap{
     
-    width:1920px;
-    height:1920px;
+
     background:white;
     padding:80px 312px 312px 312px;
     margin:0 auto;
@@ -249,18 +248,28 @@ border:1px solid white;
     justify-content: space-between;
     gap:24px;
 }
-.choose li{
+.choose li a{
     padding:8px 16px;
+    display:block;
+    text-decoration: none;
   
 }
+.choose li {
+  padding:8px 16px;
 
-.detail{
+
+
+}
+
+.choose li:hover,.choose li:active{
     color:black !important;
     background-color:#F2F2F2;
     text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
+    font-weight:bold;
+    border-radius:16px;
 }
 button{
     width:132px;
@@ -300,7 +309,7 @@ button{
 	height:312px;
 	border:0.5px lightgrey solid;
 }
-.card img:hover{
+.card:hover img{
 	transform:scale(1.2)
 }
 
@@ -347,10 +356,10 @@ span{
     
    
 }
-.first{
+.number li:hover,.number li:active{
     background-color: black;
     color:white;
- 
+    border-radius:16px;
 }
 .number{
     display: flex;
@@ -383,6 +392,10 @@ padding-top:158px;
  
 
     }
+.pagedown-on p a{
+  text-decoration:none;
+  color:white;
+}
 
 
 .center{
@@ -393,7 +406,10 @@ padding-top:158px;
   display: flex;
  justify-content: space-between;
 }
-
+.pagedown-center h3 a{
+  text-decoration:none;
+  color:white;
+}
 .pagedown-center img{
     width:190px;
     height:40px;
@@ -416,8 +432,16 @@ padding-top:158px;
     justify-content: space-between;
     gap:20px;
 }
+.chat a{
+  text-decoration:none;
+  color:white;
+}
 .end{
     padding-top:20px;
+}
+.end a{
+  text-decoration:none;
+  color:white;
 }
 
 @media(max-width:375px){
