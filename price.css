@@ -336,12 +336,9 @@ span{
    
 }
 
-.number{
-    display: flex;
 
-}
 
-.number li{
+.corner li{
     gap:20px;
     width:48px;
     height:48px;
