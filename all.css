@@ -640,6 +640,7 @@ width:100%;
     }
   .banner{
     flex-direction:column;
+    max-width:370px;
   }
   .pagedown{
     max-width:100%;
@@ -687,8 +688,9 @@ width:100%;
       
      
     }
+
     .card{
-      max-width:400px;
+      max-width:350px;
       width:100%;
      }
 
