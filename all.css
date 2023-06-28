@@ -485,7 +485,7 @@ padding-top:158px;
   justify-content: center;
  }
  .card{
-  width:375px;
+  width:416px;
  
  }
 .pagedown-center img{
@@ -687,5 +687,9 @@ width:100%;
       
      
     }
+    .card{
+      width:300px;
+     
+     }
 
 }
