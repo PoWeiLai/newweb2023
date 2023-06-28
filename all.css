@@ -688,7 +688,9 @@ width:100%;
       
      
     }
-
+  .banner{
+    max-width:390px;
+  }
    .card{
     max-width:300px;
   
